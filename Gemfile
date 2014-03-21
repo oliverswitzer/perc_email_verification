@@ -33,11 +33,15 @@ gem 'figaro'
 
 gem 'twitter-bootstrap-rails'
 
-gem 'pg'
 
 group :development do 
+  gem 'sqlite3'
   gem 'debugger'
   gem 'better_errors'
+end
+
+group :production do
+  gem 'pg'
 end
 
 
