@@ -33,6 +33,8 @@ gem 'figaro'
 
 gem 'twitter-bootstrap-rails'
 
+gem 'pg'
+
 group :development do 
   gem 'debugger'
   gem 'better_errors'
